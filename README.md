@@ -1,1 +1,0 @@
-# Meu-Portifolio-TRYBE
