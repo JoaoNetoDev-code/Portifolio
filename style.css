@@ -1,0 +1,24 @@
+img
+{ 
+  border-radius: 100%;
+}
+
+.meuNome, .sobre-mim {font-family: Arial, Helvetica, sans-serif;
+background-color:aliceblue;
+}
+
+body
+{ 
+color:black; background-color:aliceblue;
+}
+p {color:black;
+background-color:aliceblue;
+}
+h3
+{
+background-color:rgb( 111, 228, 164);
+}
+h2
+{
+  background-color:rgb( 111, 228, 164);
+}
