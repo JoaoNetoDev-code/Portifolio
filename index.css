@@ -1,0 +1,65 @@
+ *
+    {
+    font-family:Helvetica, sans-serif;
+    color:black;
+    }
+    
+    .header
+    {
+      background-color:#6FE4A4;
+      border-radius: 30px;
+      top: 25px;
+      border-bottom: solid;
+      border-top: solid;
+      text-align: center;
+    }
+
+    .meunome
+    {
+      border-bottom: solid;
+      margin-left:35%;
+      margin-right:35%;
+    }
+
+    .alunotrybe
+    {
+      border-radius: 100%;
+      border-style:solid;
+      margin-top: 15px;
+    
+    }
+
+    .title-article-01
+    {
+      background-color:#6FE4A4;
+      margin-top: 20px;
+      border-radius: 25px;
+      border-bottom: solid;
+      border-top: solid;
+      border-left: 10%;
+      padding: 1%;
+    }
+
+  .title-article-02{
+    background-color: #6FE4A4;
+    border-radius: 25px;
+    border-bottom: solid;
+      border-top: solid;
+      margin-top: 20px;
+      padding: 1%;
+  }
+
+a:hover 
+{
+  color:white;
+  background-color:#6FE4A4;
+  padding: 5px;
+}
+.footer 
+{
+  margin-bottom: 100px;
+}
+.nav
+{
+  border-bottom: solid;
+}
