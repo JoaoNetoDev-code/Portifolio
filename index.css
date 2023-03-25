@@ -29,26 +29,35 @@
     
     }
 
-    .title-article-01
+    .title-article-01 
     {
       background-color:#6FE4A4;
       margin-top: 20px;
       border-radius: 25px;
       border-bottom: solid;
       border-top: solid;
-      border-left: 10%;
+      border-left: 20%;
       padding: 1%;
+      
+    }
+    .article-01
+    {
+      margin-left: 2%;
     }
 
-  .title-article-02{
+    .title-article-02{
     background-color: #6FE4A4;
     border-radius: 25px;
     border-bottom: solid;
       border-top: solid;
       margin-top: 20px;
       padding: 1%;
+      border-left: 5%;
   }
-
+  .article-02
+  {
+    margin-left: 2%;
+  }
 a:hover 
 {
   color:white;
