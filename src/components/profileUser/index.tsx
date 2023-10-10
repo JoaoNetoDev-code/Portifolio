@@ -7,6 +7,7 @@ type PropsTypes = {
 };
 
 function ProfileUser({ name, avatar_url, bio, blog, html_url }:PropsTypes) {
+  console.log(blog);
   return (
     <section id="profile">
       <div className="section__pic-container">
@@ -19,7 +20,7 @@ function ProfileUser({ name, avatar_url, bio, blog, html_url }:PropsTypes) {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={ () => window.open('src/assets/curriculon_joaoNeto.pdf') }
+            onClick={ () => window.open('/curriculon_joaoNeto.pdf') }
           >
             Download CV
           </button>
@@ -31,16 +32,16 @@ function ProfileUser({ name, avatar_url, bio, blog, html_url }:PropsTypes) {
           </a>
         </div>
         <div id="socials-container">
-          <a href={ blog }>
+          <a href={ blog } target="_blank" rel="noreferrer">
             <img
-              src="src/assets/linkedin.png"
+              src="/linkedin.png"
               alt="My LinkedIn_profile"
               className="icon"
             />
           </a>
-          <a href={ html_url }>
+          <a href={ html_url } target="_blank" rel="noreferrer">
             <img
-              src="src/assets/github.png"
+              src="/github.png"
               alt="My Github_profile"
               className="icon"
             />

@@ -17,11 +17,11 @@ function About({ avatar_url, created_at }:PropsTypes) {
         </div>
         <div className="about-details-container">
           <div className="about-containers">
-            {[{ icon: 'src/assets/experience.png',
+            {[{ icon: '/experience.png',
               title: 'Experiência',
               content: `meu primeiro contato com desenvolvimento foi a
               exatamente...\n${calcDiffTime(created_at)}` },
-            { icon: 'src/assets/education.png',
+            { icon: '/education.png',
               title: 'Formação',
               content: `Desenvolvimento Web - Trybe
               \n Técnico em Administração - Grau Técnico` }]
@@ -48,7 +48,7 @@ function About({ avatar_url, created_at }:PropsTypes) {
         </div>
       </div>
       <a href="./#experienc">
-        <img src="src/assets/arrow.png" alt="Arrow icon" className="icon arrow" />
+        <img src="/arrow.png" alt="Arrow icon" className="icon arrow" />
       </a>
     </section>
 

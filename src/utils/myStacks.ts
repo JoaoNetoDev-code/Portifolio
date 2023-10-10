@@ -20,24 +20,16 @@ export const frontEndStacks = [
     nivel: 'experiente',
   },
   {
-    stack: 'Java',
-    nivel: 'Basico',
-  },
-  {
-    stack: 'Python',
-    nivel: 'Basico',
-  },
-  {
     stack: 'Bootstrap',
     nivel: 'experiente',
   },
   {
-    stack: 'Stiled Component',
-    nivel: 'Médio',
-  },
-  {
     stack: 'SASS',
     nivel: 'experiente',
+  },
+  {
+    stack: 'Styled Component',
+    nivel: 'Médio',
   },
 ];
 
@@ -65,5 +57,13 @@ export const backEndStacks = [
   {
     stack: 'Express JS',
     nivel: 'experiente',
+  },
+  {
+    stack: 'Java',
+    nivel: 'Basico',
+  },
+  {
+    stack: 'Python',
+    nivel: 'Basico',
   },
 ];

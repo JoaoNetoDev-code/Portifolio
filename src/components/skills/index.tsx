@@ -14,7 +14,7 @@ function Skills() {
                 frontEndStacks.map((stacks) => (
                   <article key={ stacks.stack }>
                     <img
-                      src="src/assets/checkmark.png"
+                      src="/checkmark.png"
                       alt="Experience_icon"
                       className="icon"
                     />
@@ -34,7 +34,7 @@ function Skills() {
                 backEndStacks.map((stacks) => (
                   <article key={ stacks.stack }>
                     <img
-                      src="src/assets/checkmark.png"
+                      src="/checkmark.png"
                       alt="Experience_icon"
                       className="icon"
                     />
@@ -51,7 +51,7 @@ function Skills() {
       </div>
       <a href="./#projects">
         <img
-          src="src/assets/arrow.png"
+          src="/arrow.png"
           alt="Arrow_icon"
           className="icon arrow"
         />

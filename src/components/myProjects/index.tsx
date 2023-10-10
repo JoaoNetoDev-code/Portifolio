@@ -7,8 +7,8 @@ type PropRepos = {
 function MyProjects({ repos }:PropRepos) {
   const filterRepos = repos.filter((star) => star.stargazers_count > 0);
 
-  const handleClick = (link:string) => {
-    window.location.href = link;
+  const handleClickViwerPage = (link:string) => {
+    window.open(link, '_brank');
   };
 
   return (
@@ -22,7 +22,7 @@ function MyProjects({ repos }:PropRepos) {
             <div className="details-container color-container">
               <div className="article-container">
                 <img
-                  src="sas"
+                  src="public\testProject.jpg"
                   alt={ repo.name }
                   className="project-img"
                 />
@@ -31,15 +31,15 @@ function MyProjects({ repos }:PropRepos) {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={ () => handleClick(repo.html_url) }
+                  onClick={ () => handleClickViwerPage(repo.html_url) }
                 >
                   Github
                 </button>
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick={ () => handleClick(repo.homepage) }
+                  onClick={ () => handleClickViwerPage(repo.homepage) }
                 >
-                  Live Demo
+                  Deploy
                 </button>
               </div>
             </div>
@@ -49,7 +49,7 @@ function MyProjects({ repos }:PropRepos) {
       }
       <a href="./#contact">
         <img
-          src="src/assets/arrow.png"
+          src="/arrow.png"
           alt="Arrow_icon"
           className="icon arrow"
         />

@@ -11,7 +11,7 @@ function Contato({ blog, company }:PropsTypes) {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
-            src="src/assets/email.png"
+            src="/email.png"
             alt="Email_icon"
             className="icon contact-icon email-icon"
           />
@@ -19,7 +19,7 @@ function Contato({ blog, company }:PropsTypes) {
         </div>
         <div className="contact-info-container">
           <img
-            src="src/assets/linkedin.png"
+            src="/linkedin.png"
             alt="LinkedIn_icon"
             className="icon contact-icon"
           />
