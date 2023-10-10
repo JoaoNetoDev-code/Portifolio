@@ -4,10 +4,10 @@ import Loading from './components/loading';
 import NavBar from './components/navBar';
 import GitHubUserType, { Repository } from './types';
 import fetchApi, { fetchReposApi } from './utils/fetchapi';
-import About from './components/aboutMe';
 import Skills from './components/skills';
-import MyProjects from './components/myProjects';
+import About from './components/aboutMe';
 import Contato from './components/contato';
+import MyProjects from './components/myProjects';
 import './App.css';
 import Footer from './components/footer';
 
