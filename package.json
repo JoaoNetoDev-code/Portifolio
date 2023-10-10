@@ -1,9 +1,8 @@
 {
-  "name": "joaonetodev-code-github-io",
+  "name": "joaonetodev-code",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://JoaoNetoDev-code.github.io/JoaoNetoDev-code.github.io",
   "scripts": {
     "dev": "vite --open",
     "build": "tsc && vite build",
