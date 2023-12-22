@@ -2,18 +2,16 @@ import { useEffect, useState } from 'react';
 import ProfileUser from './components/profileUser';
 import Loading from './components/loading';
 import NavBar from './components/navBar';
-import GitHubUserType, { Repository } from './types';
-import fetchApi, { fetchReposApi } from './utils/fetchapi';
+import GitHubUserType from './types';
+import fetchApi from './utils/fetchapi';
 import Skills from './components/skills';
 import About from './components/aboutMe';
 import Contato from './components/contato';
-import MyProjects from './components/myProjects';
 import './App.css';
 import Footer from './components/footer';
 
 function App() {
   const [user, setUser] = useState({} as GitHubUserType);
-  const [useRepos, setUseRepos] = useState<Repository[]>([] as Repository[]);
 
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
@@ -21,8 +19,6 @@ function App() {
     const requestDatas = async () => {
       setIsLoading(true);
       const dataUser = await fetchApi();
-      const dataRepos = await fetchReposApi();
-      setUseRepos(dataRepos);
       setUser(dataUser);
     };
     requestDatas();
