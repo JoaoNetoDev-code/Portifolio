@@ -1,5 +1,5 @@
-const navOptions = ['Sobre', 'Habilidades', 'Projetos', 'Contato'];
-const navDirect = ['#about', '#experience', '#projects', '#contact'];
+const navOptions = ['Sobre', 'Habilidades', 'Contato'];
+const navDirect = ['#about', '#experience', '#contact'];
 
 function NavContent() {
   return (

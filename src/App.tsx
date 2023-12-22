@@ -47,7 +47,7 @@ function App() {
       />
       <Skills />
       {/* <MyProjects repos={ useRepos } /> */}
-      {/* <Contato company={ user.company } blog={ user.blog } /> */}
+      <Contato company={ user.company } blog={ user.blog } />
       <Footer name={ user.name } />
     </>
   );

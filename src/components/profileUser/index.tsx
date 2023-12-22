@@ -7,7 +7,6 @@ type PropsTypes = {
 };
 
 function ProfileUser({ name, avatar_url, bio, blog, html_url }:PropsTypes) {
-  console.log(blog);
   return (
     <section id="profile">
       <div className="section__pic-container">
