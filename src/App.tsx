@@ -46,8 +46,8 @@ function App() {
         avatar_url={ user.avatar_url }
       />
       <Skills />
-      <MyProjects repos={ useRepos } />
-      <Contato company={ user.company } blog={ user.blog } />
+      {/* <MyProjects repos={ useRepos } /> */}
+      {/* <Contato company={ user.company } blog={ user.blog } /> */}
       <Footer name={ user.name } />
     </>
   );
